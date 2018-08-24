@@ -31,10 +31,16 @@ label{
   display: flex;
   justify-content: center;
 }
-.controls_item{
+
+.menu{
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.menu_item{
   margin: 0 10px;
 }
-.controls_item label{
+.menu_item label{
   margin-left: 5px;
 }
 
@@ -43,6 +49,13 @@ label{
     position: fixed;
     margin: 0;
     bottom: 30px;
+    left: 0;
+    width: 100%;
+  }  
+  .menu{
+    position: fixed;
+    margin: 0;
+    bottom: 100px;
     left: 0;
     width: 100%;
   }  
